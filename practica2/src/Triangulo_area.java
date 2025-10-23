@@ -6,9 +6,9 @@ void main() {
         System.out.print("Introduzca el número de lados de un polígono (3-4)");
         i = scanner.nextInt();
         if (i < 3 || i > 4) {
-            System.out.println("Error: El número debe estar entre 3 y 10. Inténtelo de nuevo.");
+            System.out.println("Error: El número debe estar entre 3 y 4. Inténtelo de nuevo.");
         }
-    } while (i < 3 || i > 10); // La condición del bucle: se repite si 'i' no está en el rango
+    } while (i < 3 || i > 4); // La condición del bucle: se repite si 'i' no está en el rango
     System.out.println("Número válido introducido: " + i);
     System.out.println("Introduzca la altura del poligono");
     int a = scanner.nextInt();
